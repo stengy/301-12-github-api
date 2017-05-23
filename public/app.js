@@ -5,7 +5,7 @@ $.ajax({
   url: 'https://api.github.com/user/repos',
   method: 'GET',
   headers: {
-    Authorization: 'token ' //enter token string
+    Authorization: `token ${myGhToke}` //enter token string
   }
 })
 .then(
